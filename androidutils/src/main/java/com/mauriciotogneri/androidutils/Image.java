@@ -12,7 +12,7 @@ import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.net.Uri;
-import android.support.annotation.IdRes;
+import androidx.annotation.IdRes;
 
 import com.mauriciotogneri.javautils.Record;
 

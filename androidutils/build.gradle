@@ -2,14 +2,14 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-def releaseVersion = '3.4.0'
+def releaseVersion = '4.0.0'
 def bintrayUser = hasProperty('bintray_user') ? bintray_user : ''
 def bintrayApiKey = hasProperty('bintray_apikey') ? bintray_apikey : ''
 
 android
 {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     dexOptions
     {
@@ -75,15 +75,15 @@ artifacts {
 
 ext
 {
-    support = '27.1.1'
+    androidx = '1.0.0'
 }
 
 dependencies
 {
     // android
-    implementation "com.android.support:appcompat-v7:$support"
-    implementation "com.android.support:customtabs:$support"
-    implementation "com.android.support:recyclerview-v7:$support"
+    implementation "androidx.appcompat:appcompat:$androidx"
+    implementation "androidx.browser:browser:$androidx"
+    implementation "androidx.recyclerview:recyclerview:$androidx"
 
     // java utils
     implementation 'com.mauriciotogneri:javautils:3.0.0'

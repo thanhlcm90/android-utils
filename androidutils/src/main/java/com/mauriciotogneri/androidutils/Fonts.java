@@ -3,7 +3,7 @@ package com.mauriciotogneri.androidutils;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.annotation.DimenRes;
+import androidx.annotation.DimenRes;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;

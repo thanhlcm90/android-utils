@@ -2,7 +2,7 @@ package com.mauriciotogneri.androidutils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 import android.view.View;
 import android.widget.Toast;
 

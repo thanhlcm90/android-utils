@@ -1,7 +1,7 @@
 package com.mauriciotogneri.androidutils.uibinder.containers;
 
 import android.app.Dialog;
-import android.support.annotation.IdRes;
+import androidx.annotation.IdRes;
 import android.view.View;
 
 public class DialogContainer implements UiContainer

@@ -8,9 +8,9 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
 import android.provider.MediaStore;
-import android.support.annotation.ColorRes;
-import android.support.customtabs.CustomTabsIntent;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.ColorRes;
+import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.core.content.ContextCompat;
 
 import com.mauriciotogneri.javautils.Encoding;
 
